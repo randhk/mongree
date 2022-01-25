@@ -1,0 +1,21 @@
+{
+  "name": "REDJP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss-interaction-variants": "^5.0.0",
+    "tailwindcss-named-groups": "^0.0.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.15"
+  },
+  "scripts": {
+    "build": "postcss src/tailwind.css -o public/build/tailwind.css"
+  }
+}
